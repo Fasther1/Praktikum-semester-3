@@ -1,0 +1,183 @@
+{
+    "intents": [
+        {
+            "tag": "salam",
+            "patterns": ["Hai", "Halo", "Selamat pagi", "Selamat siang", "Selamat sore", "Selamat malam", "Halo, ada yang bisa saya bantu?"],
+            "responses": ["Halo! Ada yang bisa kami bantu?", "Hai! Selamat datang di Toko Susu. Ada yang bisa saya bantu?", "Halo! Apa yang bisa kami lakukan untuk Anda hari ini?"]
+        },
+        {
+            "tag": "perpisahan",
+            "patterns": ["Sampai jumpa", "Selamat tinggal", "Dadah", "Sampai nanti", "Terima kasih, sampai jumpa lagi"],
+            "responses": ["Sampai jumpa! Semoga harimu menyenangkan.", "Selamat tinggal! Terima kasih telah berbelanja di Toko Susu.", "Dadah! Jangan lupa kembali lagi."]
+        },
+        {
+            "tag": "terima_kasih",
+            "patterns": ["Terima kasih", "Makasih", "Thanks", "Terima kasih banyak", "Makasih ya"],
+            "responses": ["Sama-sama! Senang bisa membantu.", "Kembali kasih! Ada yang bisa kami bantu lagi?", "Sama-sama! Jangan ragu untuk menghubungi kami lagi."]
+        },
+        {
+            "tag": "produk",
+            "patterns": ["Apa saja produk yang dijual di sini?", "Kamu jual susu apa saja?", "Produk susu apa yang tersedia?", "Apa yang dijual di Toko Susu ini?"],
+            "responses": ["Kami menjual berbagai jenis susu, termasuk susu sapi, susu kambing, susu almond, susu kedelai, dan susu oat.", "Di Toko Susu, kami memiliki susu segar, susu UHT, susu bubuk, dan produk susu lainnya.", "Produk kami termasuk susu organik, susu rendah lemak, dan berbagai jenis susu rasa."]
+        },
+        {
+            "tag": "harga",
+            "patterns": ["Berapa harga susu sapi?", "Berapa harga susu di sini?", "Berapa harga produk susu?", "Apa harga susu almond?"],
+            "responses": ["Harga susu sapi mulai dari Rp20.000 per liter.", "Susu almond kami dijual seharga Rp35.000 per liter.", "Harga produk susu bervariasi tergantung jenis dan mereknya. Silakan cek katalog kami untuk detail lengkap."]
+        },
+        {
+            "tag": "jam_buka",
+            "patterns": ["Jam berapa toko ini buka?", "Kapan jam operasional Toko Susu?", "Jam berapa toko buka?", "Kapan Toko Susu tutup?"],
+            "responses": ["Kami buka setiap hari dari jam 08.00 pagi hingga 08.00 malam.", "Jam operasional kami adalah dari pukul 08.00 hingga 20.00 setiap hari.", "Toko Susu buka dari pukul 08.00 pagi sampai 08.00 malam."]
+        },
+        {
+            "tag": "lokasi",
+            "patterns": ["Di mana lokasi toko ini?", "Alamat Toko Susu ini di mana?", "Bagaimana cara ke Toko Susu?", "Toko Susu berada di mana?"],
+            "responses": ["Kami berlokasi di Jl. Melati No. 10, Jakarta.", "Alamat kami adalah Jl. Melati No. 10, Jakarta. Anda bisa menggunakan Google Maps untuk petunjuk arah.", "Toko Susu terletak di Jl. Melati No. 10, Jakarta. Kami tunggu kedatangan Anda!"]
+        },
+        {
+            "tag": "diskon",
+            "patterns": ["Apakah ada diskon?", "Ada promo apa saja?", "Apakah ada penawaran khusus?", "Diskon apa yang sedang berlangsung?"],
+            "responses": ["Saat ini kami menawarkan diskon 10% untuk semua jenis susu almond.", "Kami memiliki promo beli 2 gratis 1 untuk susu sapi segar.", "Ada diskon 15% untuk pembelian pertama di Toko Susu."]
+        },
+        {
+            "tag": "pengiriman",
+            "patterns": ["Apakah kalian melakukan pengiriman?", "Bisakah saya memesan secara online?", "Apakah ada layanan pengiriman?", "Bagaimana cara pengirimannya?"],
+            "responses": ["Ya, kami menyediakan layanan pengiriman ke seluruh Jakarta.", "Anda bisa memesan secara online melalui situs web kami, dan kami akan mengirimkannya ke alamat Anda.", "Kami menawarkan layanan pengiriman dengan biaya tambahan tergantung jarak."]
+        },
+        {
+            "tag": "jenis_susu",
+            "patterns": [
+              "Apa saja jenis susu yang Anda jual?", "Apakah ada susu untuk anak-anak?", "Apakah ada susu untuk orang dewasa?", "Apakah ada susu untuk orang yang alergi laktosa?"
+            ],
+            "responses":
+            [
+              "Kami menjual berbagai macam jenis susu, seperti susu sapi, susu kambing, susu kedelai, susu almond, dan susu UHT.",
+              "Ya, kami memiliki berbagai macam susu untuk anak-anak, seperti susu formula, susu pertumbuhan, dan susu UHT.",
+              "Ya, kami juga memiliki berbagai macam susu untuk orang dewasa, seperti susu rendah lemak, susu skim, dan susu full cream.",
+              "Ya, kami memiliki susu khusus untuk orang yang alergi laktosa, seperti susu laktosa rendah dan susu bebas laktosa."
+            ]
+          },
+        {
+            "tag": "keamanan",
+            "patterns": [
+              "Apakah produk Anda aman?", "Apakah susu Anda dipasteurisasi?", "Apakah Anda menggunakan bahan-bahan organik?", "Apakah produk Anda bebas dari bahan kimia berbahaya?"
+            ],
+            "responses":
+            [
+              "Ya, semua produk kami diproduksi dengan standar keamanan yang tinggi. Kami memastikan bahwa semua produk kami aman untuk dikonsumsi.",
+              "Ya, semua susu kami dipasteurisasi untuk membunuh bakteri berbahaya.",
+              "Kami menggunakan bahan-bahan organik whenever possible. Kami selalu berusaha untuk menggunakan bahan-bahan yang alami dan aman.",
+              "Ya, kami berusaha untuk tidak menggunakan bahan kimia berbahaya dalam produk kami. Kami selalu memilih bahan-bahan yang aman dan ramah lingkungan."
+            ]
+          },
+        {
+            "tag": "terima_kasih",
+            "patterns": [
+              "Terima kasih", "Makasih", "Trimakasih", "Senang sekali", "Terima kasih banyak"
+            ],
+            "responses": [
+              "Sama-sama! Kami senang bisa membantu Anda.",
+              "Jangan ragu untuk kembali lagi.",
+              "Senang mendengarnya! Kami selalu berusaha memberikan yang terbaik.",
+              "Terima kasih atas pujiannya! Kami akan terus berusaha untuk meningkatkan layanan kami.",
+              "Sama-sama! Semoga Anda puas dengan produk dan layanan kami."
+            ]
+          },
+          {
+            "tag": "produk",
+            "patterns": [
+              "Apa saja produk yang Anda jual?", "Produk apa yang Anda rekomendasikan?", "Saya ingin melihat produk susu", "Ada produk baru apa?"
+            ],
+            "responses": [
+              "Kami menjual berbagai macam produk susu, seperti susu sapi, susu kambing, susu kedelai, dan susu almond.",
+              "Kami memiliki banyak produk yang bisa Anda pilih, tergantung kebutuhan dan preferensi Anda. Silakan kunjungi website kami untuk melihat katalog produk kami.",
+              "Tentu, silakan mampir ke toko kami untuk melihat semua produk susu yang kami jual.",
+              "Kami selalu meluncurkan produk baru secara berkala. Silakan ikuti media sosial kami untuk mendapatkan informasi terbaru."
+            ]
+          },
+          
+          {
+            "tag": "harga",
+            "patterns": [
+              "Berapa harga susu ini?", "Berapa harga produk X?", "Apakah ada diskon?", "Apakah ada promo?"
+            ],
+            "responses": [
+              "Harga susu ini adalah Rp. X.000.",
+              "Harga produk X adalah Rp. Y.000.",
+              "Ya, saat ini kami sedang ada diskon untuk produk susu tertentu. Silakan kunjungi website kami untuk melihat informasi lebih lanjut.",
+              "Kami sering mengadakan promo menarik. Silakan ikuti media sosial kami untuk mendapatkan informasi terbaru."
+            ]
+          },
+          {
+            "tag": "lokasi",
+            "patterns": [
+              "Di mana Toko Susu berada?", "Bagaimana cara menuju ke Toko Susu?", "Apakah ada cabang lain?", "Bisakah saya pesan online?"
+            ],
+            "responses": [
+              "Toko Susu terletak di tambun.",
+              "Anda dapat menggunakan Google Maps untuk mendapatkan petunjuk arah ke Toko Susu.",
+              "Saat ini kami hanya memiliki satu cabang.",
+              "Ya, Anda dapat memesan produk susu secara online melalui website kami."
+            ]
+          },
+          
+          
+          
+        {
+            "tag": "perpisahan",
+            "patterns": [
+              "Sampai jumpa", "Selamat tinggal", "Terima kasih dan sampai jumpa", "Dadah", "See you later"
+            ],
+            "responses": [
+              "Sampai jumpa lagi! Senang bisa membantu Anda.",
+              "Selamat tinggal! Terima kasih sudah berbelanja di Toko Susu.",
+              "Semoga harimu menyenangkan! Sampai jumpa lagi.",
+              "Dadah! Terima kasih atas kunjungannya.",
+              "See you later! We hope to see you again soon."
+            ]
+          },
+          {
+            "tag": "diskon",
+            "patterns": [
+              "Apakah ada diskon?", "Apakah ada promo?", "Diskon apa yang sedang ada?", "Apa saja produk yang sedang diskon?"
+            ],
+            "responses":
+            [
+              "Ya, saat ini kami sedang ada diskon untuk produk susu tertentu. Silakan kunjungi website kami untuk melihat informasi lebih lanjut.",
+              "Kami sering mengadakan promo menarik. Silakan ikuti media sosial kami untuk mendapatkan informasi terbaru.",
+              "Saat ini sedang ada diskon untuk produk susu X, Y, dan Z."]
+
+          },
+          {
+            "tag": "layanan_pelanggan",
+            "patterns": [
+              "Bagaimana cara menghubungi layanan pelanggan?", "Apakah ada pertanyaan yang sering diajukan?", "Bisakah saya memberikan saran atau masukan?", "Bagaimana cara komplain jika saya tidak puas dengan produk atau layanan Anda?"
+            ],
+            "responses":
+            [
+              "Anda dapat menghubungi layanan pelanggan kami melalui email, telepon, atau media sosial.",
+              "Ya, kami memiliki daftar pertanyaan yang sering diajukan di website kami.",
+              "Ya, kami selalu terbuka untuk menerima saran dan masukan dari pelanggan kami.",
+              "Jika Anda tidak puas dengan produk atau layanan kami, Anda dapat memberikan komplain melalui email, telepon, atau media sosial. Kami akan berusaha untuk menyelesaikan masalah Anda dengan cepat dan tepat."
+            ]
+          },
+          {
+            "tag": "pembayaran",
+            "patterns": [
+              "Apa saja metode pembayaran yang tersedia?", "Bisakah saya membayar dengan kartu kredit?", "Bisakah saya membayar dengan uang tunai?", "Bisakah saya membayar secara online?"
+            ],
+            "responses":
+            [
+              "Anda dapat membayar dengan berbagai metode pembayaran, seperti kartu kredit, kartu debit, uang tunai, dan transfer bank.",
+              "Ya, Anda dapat membayar dengan kartu kredit.",
+              "Ya, Anda dapat membayar dengan uang tunai di toko kami.",
+              "Ya, Anda dapat membayar secara online melalui website kami."
+            ]
+          }
+          
+          
+          
+          
+    ]
+}
